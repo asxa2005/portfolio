@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Modern Hip Hop</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+        <!-- Banner Section -->
+        <header class="banner">
+            <h1>Experience Modern Hip Hop!</h1>
+            <p>Explore the modern day geniuses of rap and the music that got them there</p>
+        </header>
+
+        <!-- Static Content -->
+        <section class="static-content">
+            <h2>Welcome to the Hip Hop Community!</h2>
+            <p>Learn all about new artists,the ones who have built their legacy, and the ones who are carrying on those traditions to the future.</p>
+            <button onclick="document.getElementById('signup-form').style.display='block'">Sign Up</button>
+            <div id="signup-form" class="form-popup">
+                <form class="form-container">
+                    <h2>Sign Up for Hip Hop News</h2>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+    
+                    <button type="submit" class="btn">Submit</button>
+                    <button type="button" class="btn cancel" onclick="document.getElementById('signup-form').style.display='none'">Close</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Influential Artists -->
+        <section class="influential-artists">
+            <h2>Influential Artists</h2>
+            <div class="project-gallery">
+                <img src="images/Drake_Image.jpg" alt="Drake Image">
+                <p> Artist: Drake __________ Biggest Project: Views</p>
+                <img src="images/Kendrick_Lamar_Image.jpg" alt="Kendrick Image">
+                <p> Artist: Kendrick Lamar ___________ Biggest Project: DAMN.</p>
+                <img src="images/Nicki_Minaj_Image.jpg" alt="Nicki Image">
+                <p> Artist: Nicki Minaj ___________ Biggest Project: Pink Friday</p>
+                <img src="images/Travis_Scott_Image.jpg" alt="Travis Image">
+                <p> Artist: Travis Scott ___________   Biggest Project: ASTROWORLD</p>
+            </div>
+        </section>
+
+        <!-- Music Video -->
+        <section class="music-videos">
+            <h2>Impactful Music Video</h2>
+            <p>In 2018, Childish Gambino released the hit song, "This is America" and a music video to go with it. This music video has been viewed almost a billion times and is widely considered one of the most influential music videos of the 2010s.</p>
+            <a href="https://www.youtube.com/watch?v=VYOjWnS4cMY" class="video-link">
+            <img src="images/Childish-Gambino-Image.webp" alt="Gambino Image">
+            </a>
+            <p>Click on this picture to watch the video on YouTube!</p>
+        </section>
+
+        <!-- Music Subgenres -->
+
+        <section class="subgenres">
+            <h2>Hip Hop Sub-Genres</h2>
+            <div class="posts-grid">
+                <article class="post-card">
+                    <img src="images/TrapMusic_Image.jpg" alt="Trap Music DJ">
+                    <div class="post-content">
+                        <h3>Trap Music</h3>
+                        <p>Popularized by artists like Gucci Mane and Lil Wayne, trap music uses heavy bass drums and fast hi-hats to distinguish itself from other forms of rap. "Pretty Girls Like Trap Music" by 2 Chainz is a great example of the music and one of the most popular albums of its era. </p>
+                    </div>
+                </article>
+                <article class="post-card">
+                    <img src="images/CloudRap_Imge.jpg" alt="Cloud Rap Concert">
+                    <div class="post-content">
+                        <h3>Cloud Rap</h3>
+                        <p>Popularized by artists like Lil B and Yung Lean, cloud rap uses dreamlike beats and layed back tracks to highlight itself and the people that lsiten to it. "Live. Love. A$AP" by A$AP Rocky is a great example of cloud rap and one of the most influential albums of the 2010s</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Personal Opinions -->
+         <section class="testimonials">
+            <h2>What Our Listeners Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial green horizontal">
+                    <div>
+                        <h3>Bob Jones</h3>
+                        <p class="verified">Verified Listener</p>
+                        <p>"Kendrick Lamar's music is extremely well crafted, the lyrics resonate with each word said, and the rhymes and cadence of his delivery are amazing."</p>
+                    </div>
+                </div>
+
+                <div class="testimonial dark vertical">
+                    <div>
+                        <h3>John Roberts</h3>
+                        <p class="verified">Verified Listener</p>
+                        <p>"Nicki Minaj's music and her impact have been incredible on the Hip Hop industry. She created a name for herself and countless other artists leading to a new wave of female rappers"</p>
+                    </div>
+                </div>
+
+                <div class="testimonial white">
+                    <div>
+                        <h3>Amanda Smith</h3>
+                        <p class="verified">Verified Listener</p>
+                        <p>"Travis Scott's music makes you feel like no other artrist, his inspiration from countless artists and creativity has cemented him as one of the most influential artists of the modern era."</p>
+                    </div>
+                </div>
+
+                <div class="testimonial light horizontal">
+                    <div>
+                        <h3>Tom Brown</h3>
+                        <p class="verified">Verified Listener</p>
+                        <p>"Drake's music is not only extremely catchy, but it also always brings a really great energy. His music is up beat and has some extremely clever rhymes that help to spread his music."</p>
+                    </div>
+                </div>
+
+                <div class="testimonial blue vertical">
+                    <div>
+                        <h3>Alex Peters</h3>
+                        <p class="verified">Verified Listener</p>
+                        <p>"Future's music is some of the best music has to offer. His songs always fit the vibe of the party and his smooth flow help to make the music even more enjoyable."</p>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+        <footer>
+            <p>&copy; 2025 Modern Hip Hop | All Rights Reserved | Images used with Creative Commons License</p>
+        </footer>
+    </body>
+</html>
